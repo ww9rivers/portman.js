@@ -37,6 +37,10 @@
           <q-item-side icon="home" />
           <q-item-main label="Home" sublabel="Start over" />
         </q-item>
+        <q-item to="/manage">
+          <q-item-side icon="devices" />
+          <q-item-main label="Manage" sublabel="Manage switch ports" />
+        </q-item>
         <q-item to="/tools">
           <q-item-side icon="build" />
           <q-item-main label="Tools" sublabel="Utilities" />
