@@ -16,7 +16,7 @@
     "vue-i18n": "^7.3.3"
   },
   "devDependencies": {
-    "quasar-cli": "*",
+    "quasar-cli": "^0.17.25",
     "strip-ansi": "=3.0.1"
   },
   "engines": {
