@@ -37,9 +37,6 @@ module.exports = function (ctx) {
     framework: {
       components: [
 	"QAutocomplete",
-        'QLayout',
-        'QLayoutHeader',
-        'QLayoutDrawer',
         'QPageContainer',
         'QPage',
         'QToolbar',
@@ -54,11 +51,15 @@ module.exports = function (ctx) {
 	'QField',
 	'QInput',
         'QIcon',
+        'QLayout',
+        'QLayoutDrawer',
+        'QLayoutHeader',
         'QList',
         'QListHeader',
         'QItem',
         'QItemMain',
-        'QItemSide'
+        'QItemSide',
+	'QSearch'
       ],
       directives: [
         'Ripple'
